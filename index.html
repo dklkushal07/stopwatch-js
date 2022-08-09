@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <p>STOPWATCH USING JAVASCRIPT</p>
+        <div class="stopwatch">
+            <p id="time"><span id="hours">00</span><span>:</span><span id="minutes">00</span><span>:</span><span id="seconds">00</span><span>:</span><span id="tens">00</span></p>
+            <button onclick="start()" id="start-button">start</button>
+            <button onclick="stop()" id="stop-button">stop</button>
+            <button onclick="lap()" id="lap-button">Lap</button>
+            <button onclick="reset()" id="reset-button">reset</button>
+        </div>
+
+        <div class="lap-section">
+            <p class="laps-text">Laps</p>
+            <div class="laps">
+                <p id="lap-value"></p>
+            </div>
+            <button onclick="clearlap()">Clear laps</button>
+        </div>
+    </div>
+
+    <div class="disclaimer">
+        <p>This app is made by javascript learner. Hence, the app might not be optimized well. Sorry for inconvinience.Some problems to be fixed are:</p>
+        <ul>
+            <li>Frequent clicks on start increases the timing speed</li>
+            <li>Lap is not properly optimized!</li>
+        </ul>
+        <p>I will be fixing this soon</p>
+        <br>
+        <p>made with love and passion by
+            <a href="https://twitter.com/akhilesh_kafle">@akhilesh_kafle</a> 
+        </p>
+    </div>
+</body>
+</html>

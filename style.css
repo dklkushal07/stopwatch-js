@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(57, 141, 201)
+}
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 4%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container>p{
+    font-size: 1em;
+    letter-spacing: 5px;
+    padding: 10px;
+    color: white;
+}
+
+.stopwatch{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.stopwatch>p{
+    font-size: 3em;
+    letter-spacing: 3px;
+    color: white;
+}
+
+button{
+    border: solid white 1px;
+    padding: 10px 20px;
+    margin:20px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-weight:100;
+}
+
+button:hover{
+    background-color: white;
+    border: solid black 1px;
+}
+
+#start-button{
+    background-color: rgb(43, 218, 43);
+}
+#stop-button{
+    background-color: red;
+}
+#lap-button{
+    background-color: skyblue;
+}
+
+.lap-section{
+    margin-top: 10px;
+    display: none;
+}
+
+.laps>p{
+    display: block;
+    margin-top:10px;
+    color: white;
+    font-size: 1.3;
+    opacity: 0.8;
+}
+
+.laps-text{
+    color:white;
+    letter-spacing: 2px;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+#clear-laps{
+    background-color: rgb(173, 161, 161);
+    color: white;
+}
+
+
+.disclaimer{
+    position: fixed;
+    bottom: 4px;
+    left:30%;
+    color: white;
+    opacity: 0.9;
+    font-style: italic;
+    font-size: 0.6em;
+    text-decoration: none;
+}
+
+a{
+    color: rgb(193, 212, 247);
+}
