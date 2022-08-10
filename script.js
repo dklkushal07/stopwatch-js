@@ -62,6 +62,10 @@ function stopwatch(){
         if (seconds<10){
             Dseconds = "0" + Dseconds
         }
+        
+        if (tens<10){
+            Dtens = "0" + Dtens
+        }
 
         document.getElementById("hours").innerHTML = Dhours
         document.getElementById("seconds").innerHTML = Dseconds
